@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static int removeDuplicates(int[] nums) {
-        HashSet hashSet = new HashSet<Integer>();
+        HashSet<Integer> hashSet = new HashSet<>();
         for (int value : nums) {
             hashSet.add(value);
         }
