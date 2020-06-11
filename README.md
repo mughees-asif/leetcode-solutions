@@ -1,16 +1,10 @@
 # Leetcode Solutions
 
-## Algorithms and Data Structures
-
-### 1. Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
-
 ### 2. Getting Started
 
-#### 2.1. Prerequisites
+* Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
 
-A [HackerRank](https://www.hackerrank.com/) account is recommended to save progress and solutions on the platform. Otherwise, a guest account is also available on HackerRank to run the code.
-
-#### 2.2. Running the code 
+### 2.2. Running the code 
 
 Simply copy, paste and run the code if running on HackerRank.
 
@@ -58,4 +52,4 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Challenge  | Difficulty | Explanation  | Returns |
 | ------------- | ------------- | ------------- | ------------- |
-|  ReverseString |  :green_book: | reverse a given char array | reversed char array |
+|  ReverseString |  :green_book: | reverse a given char array | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) |

@@ -3,7 +3,7 @@ package com.mughees;
     public class Main {
 
     public static void main(String[] args) {
-        char[] s = {'h', 'e', 'l', 'l', 'o'};
+
     }
 
     public void reverseString(char[] s) {
