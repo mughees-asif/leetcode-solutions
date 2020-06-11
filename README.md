@@ -1,3 +1,4 @@
+# Leetcode Solutions
 
 ## Algorithms and Data Structures
 
@@ -55,5 +56,6 @@ Everyone is more than welcome to contribute to the solutions.
 
 ### 5. Algorithm Challenges
 
-| Challenge  | Status |  Level  |  Topic  |
-| ------------- | ------------- |------------- | ------------- |
+| Challenge  | Difficulty |
+| ------------- | ------------- |
+|  ReverseString |  :green_book: | 
