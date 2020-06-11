@@ -56,6 +56,6 @@ Everyone is more than welcome to contribute to the solutions.
 
 ### 5. Algorithm Challenges
 
-| Challenge  | Difficulty |
-| ------------- | ------------- |
-|  ReverseString |  :green_book: | 
+| Challenge  | Difficulty | Explanation  | Returns |
+| ------------- | ------------- | ------------- | ------------- |
+|  ReverseString |  :green_book: | reverse a given char array | reversed char array |
