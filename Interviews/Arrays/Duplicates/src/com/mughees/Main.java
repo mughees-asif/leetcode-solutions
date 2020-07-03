@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(removeDuplicates(new int[]{1, 1, 2}));
-        System.out.println(containsDuplicates(new int[]{1, 1, 2, 4}));
+        System.out.println(containsDuplicates(new int[]{1, 12, 4}));
     }
 
     static int removeDuplicates(int[] nums) {
@@ -19,14 +19,11 @@ public class Main {
     }
 
     static boolean containsDuplicates(int[] nums) {
-        boolean flag = false;
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                flag = true;
-                break;
-            }
+            if (nums[i] == nums[i + 1]) return true;
+            break;
         }
-        return flag;
+        return false;
     }
 }
