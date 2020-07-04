@@ -48,8 +48,19 @@ Everyone is more than welcome to contribute to the solutions.
 | :orange_book: | Medium |
 | :closed_book: | Hard |
 
-### 5. Algorithm Challenges
+----------------------------------------------------------------------------------------------
 
-| Challenge  | Difficulty | Explanation  | Returns |
-| ------------- | ------------- | ------------- | ------------- |
-|  ReverseString |  :green_book: | reverse a given char array | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) |
+# Interview preparation
+
+## Arrays Challenges :green_book:
+
+| Challenge  | Explanation  | Returns |
+| ------------- | ------------- | ------------- |
+|  Remove Duplicates from Sorted Array | push array elements to `HashSet` -> duplicates automatically removed -> return `HashSet.size()` | [length of duplicates removed array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Duplicates/src/com/mughees/Main.java) |
+
+
+## Strings 
+
+| Challenge  | Explanation  | Returns |
+| ------------- | ------------- | ------------- |
+|  ReverseString | reverse a given char array | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) |
