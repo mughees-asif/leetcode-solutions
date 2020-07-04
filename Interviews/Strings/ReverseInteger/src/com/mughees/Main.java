@@ -12,7 +12,7 @@ public class Main {
         int result;
         char[] arr;
         try {
-            if (num >= 0) {     // positive numbers
+            if (num > 0) {     // positive numbers
                 arr = String.valueOf(num).toCharArray();
                 reverseInt(arr);
                 result = Integer.parseInt(new String(arr));
