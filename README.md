@@ -54,13 +54,16 @@ Everyone is more than welcome to contribute to the solutions.
 
 ## Arrays Challenges :green_book:
 
-| Challenge  | Explanation  | Returns |
-| ------------- | ------------- | ------------- |
-|  Remove Duplicates from Sorted Array | push array elements to `HashSet` -> duplicates automatically removed -> return `HashSet.size()` | [length of duplicates removed array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Duplicates/src/com/mughees/Main.java) |
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+|  Remove Duplicates from Sorted Array | push array elements to `HashSet` -> duplicates automatically removed -> return `HashSet.size()` | [length of duplicates removed array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Duplicates/src/com/mughees/Main.java) | `O(n)` |
+|  Rotate Array | use an extra array in which we place every element of the array at its correct position | [array elements shifted according to given int parameter](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateArray/src/com/mughees/Main.java) | `O(n)` |
+|  Single Number | use the `XOR (^)` operator as it is multiplicative  | [single number that occurs only once in the given array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/SingleNumber/src/com/mughees/Main.java) |
 
 
-## Strings 
+## Strings :green_book:
 
-| Challenge  | Explanation  | Returns |
-| ------------- | ------------- | ------------- |
+
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
 |  ReverseString | reverse a given char array | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) |
