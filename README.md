@@ -1,10 +1,10 @@
 # Leetcode Solutions
 
-### 2. Getting Started
+### 1. Getting Started
 
 * Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
 
-### 2.2. Running the code 
+### 2. Running the code 
 
 Simply copy, paste and run the code if running on HackerRank.
 
@@ -43,14 +43,14 @@ Everyone is more than welcome to contribute to the solutions.
 * hit <kbd>Ctrl</kbd>+<kbd>F</kbd> on Windows & search by **name**/**topic-wise**.
 
 | Symbol  | Difficulty Level |  
-| ------------- | -------------
+| ------------- | ------------- |
 | :green_book: | Easy |
 | :orange_book: | Medium |
 | :closed_book: | Hard |
 
 ----------------------------------------------------------------------------------------------
 
-# Interview preparation
+# 5. Interview preparation
 
 ## Arrays Challenges :green_book:
 
@@ -58,7 +58,7 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |------------- |
 |  Remove Duplicates from Sorted Array | push array elements to `HashSet` -> duplicates automatically removed -> return `HashSet.size()` | [length of duplicates removed array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Duplicates/src/com/mughees/Main.java) | `O(n)` |
 |  Rotate Array | use an extra array in which we place every element of the array at its correct position | [array elements shifted according to given int parameter](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateArray/src/com/mughees/Main.java) | `O(n)` |
-|  Single Number | use the `XOR (^)` operator as it is multiplicative  | [single number that occurs only once in the given array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/SingleNumber/src/com/mughees/Main.java) |
+|  Single Number | use the `XOR (^)` operator as it is multiplicative  | [single number that occurs only once in the given array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/SingleNumber/src/com/mughees/Main.java) | `O(n)` |
 
 
 ## Strings :green_book:
@@ -66,4 +66,5 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  ReverseString | reverse a given char array | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) |
+|  Reverse String | reverses a given char array by using the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/) | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) | `O(n)` |
+|  Reverse Integer | parse `Integer` as a `String` -> reverse the string using the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/) -> parse reversed `String` as an `Integer` *handles overflow by using try/catch statement* | [reversed Integer](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) | `O(n)` |
