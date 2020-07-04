@@ -60,11 +60,12 @@ Everyone is more than welcome to contribute to the solutions.
 |  Rotate Array | use an extra array in which we place every element of the array at its correct position | [array elements shifted according to given int parameter](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateArray/src/com/mughees/Main.java) | `O(n)` |
 |  Single Number | use the `XOR (^)` operator as it is multiplicative  | [single number that occurs only once in the given array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/SingleNumber/src/com/mughees/Main.java) | `O(n)` |
 
-
 ## Strings :green_book:
 
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  Reverse String | reverses a given char array by using the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/) | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) | `O(n)` |
-|  Reverse Integer | parse `Integer` as a `String` -> reverse the string using the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/) -> parse reversed `String` as an `Integer` *handles overflow by using try/catch statement* | [reversed Integer](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) | `O(n)` |
+|  Reverse Integer | parse `Integer` as a `String` -> reverse the string using the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/) -> parse reversed `String` as an `Integer` -> Note: *handles overflow by using try/catch statement* | [reversed Integer](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) | `O(n)` |
+|  Valid Anagram | push both `String` objects to `char[]` -> sort -> check if both equal eachother | [boolean](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ValidAnagram/src/com/mughees/Main.java) | `O(n)` |
+|  Valid Palindrome | remove all non-alphabetical characters using regex (`\\W`) -> push `String` object onto `Stack` -> use loop to concatenate empty `String` object with characters from stack `stack.pop()` -> check if both equal eachother| [boolean](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ValidPalindrome/src/com/mughees/Main.java) | `O(n)` |
