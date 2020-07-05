@@ -1,29 +1,29 @@
 package com.mughees;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println(fizzBuzz(15));
     }
 
-    public List<String> fizzBuzz(int n) {
-        n = Integer.parseInt(String.valueOf(n));
-        List<Integer> list = new ArrayList<>(n);
-        for(int i = 0; i <= n; i++) {
-            if(n % 15 == 0) {
-                System.out.println("FizzBuzz");
-                list.add(n);
-            } else if(n % 3 == 0) {
-                System.out.println("Fizz");
-                list.add(n);
-            } else if(n % 5 == 0) {
-                System.out.println("Buzz");
-                list.add(n);
+    public static List<String> fizzBuzz(int n) {
+        List<String> result = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            if (i % 15 == 0) {
+                result.add("FizzBuzz");
+            } else if (i % 3 == 0) {
+                result.add("Fizz");
+            } else if (i % 5 == 0) {
+                result.add("Buzz");
+            } else {
+                result.add(String.valueOf((i)));
             }
         }
-        return list;
+        return result;
     }
 }
