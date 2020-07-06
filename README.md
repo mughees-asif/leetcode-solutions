@@ -59,6 +59,7 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/) | push array elements to `HashSet` -> duplicates automatically removed -> return `HashSet.size()` | [length of array w\out duplicates](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Duplicates/src/com/mughees/Main.java) | `O(n)` |
 |  [Rotate Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/) | use an extra array in which we place every element of the array at its correct position | [array elements shifted according to given int parameter](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateArray/src/com/mughees/Main.java) | `O(n)` |
 |  [Single Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/) | use the `XOR (^)` operator as it is multiplicative  | [single number that occurs only once in the given array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/SingleNumber/src/com/mughees/Main.java) | `O(n)` |
+|  [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/) | use the `XOR (^)` operator as it is multiplicative  | [two numbers that add up to the required sum](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/TwoSum/src/com/mughees/Main.java) | `O(n)` |
 
 ## Strings :green_book:
 
