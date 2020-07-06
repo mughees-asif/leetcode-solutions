@@ -62,7 +62,6 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546/) | use a `HashMap` to reduce look-up to `O(1)` -> initialise a *variable* to find `target - array[i]` value -> if `HashMap` contains the *variable*, return the index of `array[i]` & the *variable* | [two numbers that add up to the required sum](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/TwoSum/src/com/mughees/Main.java) | `O(n)` |
 |  [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/559/) | use a reverse `for` loop to *start* at the end of the given integer array -> if `digits[i] != 9`, increment, else `digits[i] = 0` | [integer + 1 => new array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/TwoSum/src/com/mughees/Main.java) | `O(n)` |
 
-
 ## Strings :green_book:
 
 | Challenge  | Explanation  | Returns | Time complexity |
