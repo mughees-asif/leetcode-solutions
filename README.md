@@ -52,7 +52,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 # 5. Interview preparation
 
-## Arrays Challenges :green_book:
+## Arrays :green_book:
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
