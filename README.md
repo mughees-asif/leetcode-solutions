@@ -77,7 +77,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Merge Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/96/sorting-and-searching/587/) |  | [merged array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | `O(n)` |
+|  [Merge Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/96/sorting-and-searching/587/) | initiliase an array ` new int[nums1.length]` -> `Array.copyOfRange()` x 2 -> `Arrays.sort()` | [merged array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | `O(n)` |
 
 ## Dynamic Programming 
 
