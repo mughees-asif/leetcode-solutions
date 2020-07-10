@@ -72,8 +72,19 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Valid Anagram](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882/) | push both `String` objects to `char[]` -> sort -> check if both equal eachother | [boolean](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ValidAnagram/src/com/mughees/Main.java) | `O(n)` |
 |  [Valid Palindrome](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/883/) | remove all non-alphabetical characters using regex (`\\W`) -> push `String` object onto `Stack` -> use loop to concatenate empty `String` object with characters from stack `stack.pop()` -> check if both equal eachother| [boolean](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ValidPalindrome/src/com/mughees/Main.java) | `O(n)` |
 
+## Dynamic Programming :green_book:
+
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+|  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | recursive Fibonacci sequence method | [String list of numbers replaced with FizzBuzz](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | `O(n)` |
+
 ## Math :green_book:
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Fizz Buzz](https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/743/) | simple boolean logic | [String list of numbers replaced with FizzBuzz](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/FizzBuzz/src/com/mughees/Main.java) | `O(n)` |
+
+
+
+
+
