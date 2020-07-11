@@ -1,4 +1,8 @@
 # Leetcode Solutions
+![Language](https://img.shields.io/badge/language-Java.svg)&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
+![Update](https://img.shields.io/badge/update-weekly-green.svg)&nbsp;
+[![SayThanks](https://img.shields.io/badge/say-thanks-ff69f4.svg)](https://www.linkedin.com/in/mugheesasif/)&nbsp;
 
 ### 1. Getting Started
 
