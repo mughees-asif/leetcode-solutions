@@ -16,7 +16,6 @@ public class Main {
         for(int i = nums[0]; i < tempArr.length; i++) {
             tempArr[i] = i;
         }
-        Arrays.sort(tempArr);
         return Arrays.mismatch(tempArr, nums);
     }
 }
