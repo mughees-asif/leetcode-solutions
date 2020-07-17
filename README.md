@@ -67,7 +67,7 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/559/) | use a reverse `for` loop to *start* at the end of the given integer array -> if `digits[i] != 9`, increment, else `digits[i] = 0` | [integer + 1 => new array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/TwoSum/src/com/mughees/Main.java) | `O(n)` |
 |  [Move Zeros](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/567/) | if `nums[i] != 0`, increment the index and equal to `lastIndex != 0` -> replace all shifted elements with `0` | [all `0's` moved to the end on the array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/MoveZero/src/com/mughees/Main.java) | `O(n)` |
 |  [Missing Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/99/others/722/) | initialise new `tempArr` with length `originalArr + 1` -> populate `tempArr` from `originalArr[0]` to `i + 1` -> return `Arrays.mismatch.()` | [missing number](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/MissingNumber/src/com/mughees/Main.java) | `O(n)` |
-|  [Rotate Matrix](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/770/) | [tranpose](https://en.wikipedia.org/wiki/Transpose) -> reverse each `matrix[i]`  | [transposed matrix](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateMatrix/src/com/mughees/Main.java) | `O(n)` |
+|  [Rotate Matrix](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/770/) | [tranpose](https://en.wikipedia.org/wiki/Transpose) -> reverse each `matrix[i]`  | [transposed matrix](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateMatrix/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
 
 ## Strings 
 
@@ -89,7 +89,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | 1. *simple recursion* , 2. to reach the i<sup>th</sup> step -> `(i - 1) + (i - 2)` -> initialise array with `n` capacity -> use loop to determine i<sup>th</sup> element present in `arr[n]` | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | O(2<sup>n</sup>) / `O(n)` |
+|  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | 1. *simple recursion* , 2. to reach the i<sup>th</sup> step -> `(i - 1) + (i - 2)` -> initialise array with `n` capacity -> use loop to determine i<sup>th</sup> element present in `arr[n]` | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | *O(2<sup>n</sup>)* / `O(n)` |
 
 ## Math 
 
