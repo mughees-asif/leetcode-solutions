@@ -92,7 +92,7 @@ Everyone is more than welcome to contribute to the solutions.
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | 1. *simple recursion* , 2. to reach the i<sup>th</sup> step -> `(i - 1) + (i - 2)` -> initialise array with `n` capacity -> use loop to determine i<sup>th</sup> element present in `arr[n]` | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | *O(2<sup>n</sup>)* / `O(n)` |
-|  [Maximum Subarray](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/566/) | use [Kadane\'\s Algorithm] (https://www.baeldung.com/java-maximum-subarray) | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/MaximumSubarray/src/com/mughees/Main.java) | `O(n)` |
+|  [Maximum Subarray](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/566/) | use [Kadanes Algorithm] (https://www.baeldung.com/java-maximum-subarray) | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/MaximumSubarray/src/com/mughees/Main.java) | `O(n)` |
 
 ## Math 
 
