@@ -1,8 +1,11 @@
 <p align="center">
   <a href="https://leetcode.com/">
-    <img height=85 src="https://miro.medium.com/max/1200/1*Lur9rrJITsFRnuIYURYkSg.jpeg">
+    <img height=200 src="https://miro.medium.com/max/1200/1*Lur9rrJITsFRnuIYURYkSg.jpeg">
   </a>
 </p>
+
+----------------------------------------------------------------------------------------------
+
 ![Language](https://img.shields.io/badge/language-Java-black.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
 ![Update](https://img.shields.io/badge/update-weekly-green.svg)&nbsp;
