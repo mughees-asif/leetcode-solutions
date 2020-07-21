@@ -15,6 +15,8 @@
 
 * Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
 
+----------------------------------------------------------------------------------------------
+
 ### 2. Running the code 
 
 Simply copy, paste and run the code if running on HackerRank.
