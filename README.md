@@ -101,7 +101,7 @@ Everyone is more than welcome to contribute to the solutions.
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | 1. *simple recursion* , 2. to reach the i<sup>th</sup> step -> `(i - 1) + (i - 2)` -> initialise array with `n` capacity -> use loop to determine i<sup>th</sup> element present in `arr[n]` | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | *O(2<sup>n</sup>)* / `O(n)` |
-|  [Maximum Subarray](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/566/) | use [Kadane's Algorithm](https://www.baeldung.com/java-maximum-subarray#1-kadanes-algorithm) | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/MaximumSubarray/src/com/mughees/Main.java) | `O(n)` |
+|  [Maximum Subarray](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/566/) | use [Kadane's](https://www.baeldung.com/java-maximum-subarray#1-kadanes-algorithm) | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/MaximumSubarray/src/com/mughees/Main.java)  Algorithm | `O(n)` |
 |  [House Robber](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/576/) | loop through array with every iteration at `i += 2` | [maximum integer of loot collected](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/HouseRobber/src/com/mughees/Main.java) | `O(n)` |
 
 ## Math 
@@ -109,6 +109,7 @@ Everyone is more than welcome to contribute to the solutions.
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Fizz Buzz](https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/743/) | simple boolean logic | [String list of numbers replaced with FizzBuzz](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/FizzBuzz/src/com/mughees/Main.java) | `O(n)` |
+|  [Prime Numbers](https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/744/) | use the [Sieve of Eratosthenes](https://www.baeldung.com/java-generate-prime-numbers#5-working-example-of-sieve-of-eratosthenes) algorithm | [integer showing total no. of prime numbers less than given integer](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/PrimeNumbers/src/com/mughees/Main.java) | `O(n log n)` |
 
 
 
