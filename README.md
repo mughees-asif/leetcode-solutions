@@ -11,6 +11,8 @@
 ![Update](https://img.shields.io/badge/update-weekly-green.svg)&nbsp;
 [![SayThanks](https://img.shields.io/badge/say-thanks-ff69f4.svg)](https://www.linkedin.com/in/mugheesasif/)&nbsp;
 
+----------------------------------------------------------------------------------------------
+
 ### 1. Getting Started
 
 * Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
@@ -88,8 +90,6 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Valid Palindrome](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/883/) | remove all non-alphabetical characters using regex (`\\W`) -> push `String` object onto `Stack` -> use loop to concatenate empty `String` object with characters from stack `stack.pop()` -> check if both equal eachother | [boolean](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ValidPalindrome/src/com/mughees/Main.java) | `O(n)` |
 |  [First Unique Character in a String](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | push `string.toCharArray()` -> loop and check `if (s.indexOf(arr[i]) == s.lastIndexOf(arr[i]))` -> return `i` if unique, else `-1` | [index of the first unique character](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/UniqueCharacter/src/com/mughees/Main.java) | `O(n)` |
 
-
-
 ## Sorting and Searching 
 
 | Challenge  | Explanation  | Returns | Time complexity |
@@ -102,6 +102,7 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |------------- |
 |  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | 1. *simple recursion* , 2. to reach the i<sup>th</sup> step -> `(i - 1) + (i - 2)` -> initialise array with `n` capacity -> use loop to determine i<sup>th</sup> element present in `arr[n]` | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | *O(2<sup>n</sup>)* / `O(n)` |
 |  [Maximum Subarray](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/566/) | use [Kadane's Algorithm](https://www.baeldung.com/java-maximum-subarray#1-kadanes-algorithm) | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/MaximumSubarray/src/com/mughees/Main.java) | `O(n)` |
+|  [House Robber](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/576/) |  | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/HouseRobber/src/com/mughees/Main.java) | `O(n)` |
 
 ## Math 
 
