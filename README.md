@@ -55,18 +55,18 @@ Everyone is more than welcome to contribute to the solutions.
 
 ## 4. Key
 
-* hit <kbd>Ctrl</kbd>+<kbd>F</kbd> on Windows & search by **name**.
+| Topic  | Navigate | Difficulty level |
+| ------------- | ------------- | ------------- |
+| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#arrays) | :green_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#strings) | :green_book: | 
+| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#sorting-and-searching) | :green_book: |
+| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#dynamics-programming) | :green_book: |
+| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#math) | :green_book: |
 
-| Topic  | Navigate |  
-| ------------- | ------------- |
-| Arrays | [:memo:
-:pencil:](https://github.com/mughees-asif/leetcode-solutions#arrays) |
-| :orange_book: | Medium |
-| :closed_book: | Hard |
 
 ----------------------------------------------------------------------------------------------
 
-# 5. Interview preparation :green_book:
+# 5. Interview preparation
 
 ## Arrays
 
