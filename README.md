@@ -57,9 +57,10 @@ Everyone is more than welcome to contribute to the solutions.
 
 * hit <kbd>Ctrl</kbd>+<kbd>F</kbd> on Windows & search by **name**.
 
-| Symbol  | Difficulty Level |  
+| Topic  | Navigate |  
 | ------------- | ------------- |
-| :green_book: | Easy |
+| Arrays | [:memo:
+:pencil:](https://github.com/mughees-asif/leetcode-solutions#arrays) |
 | :orange_book: | Medium |
 | :closed_book: | Hard |
 
