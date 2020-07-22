@@ -69,7 +69,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 # 5. Interview preparation
 
-## Arrays
+## Arrays - back to [top](https://github.com/mughees-asif/leetcode-solutions#4-key)
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
@@ -81,7 +81,7 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Missing Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/99/others/722/) | initialise new `tempArr` with length `originalArr + 1` -> populate `tempArr` from `originalArr[0]` to `i + 1` -> return `Arrays.mismatch.()` | [missing number](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/MissingNumber/src/com/mughees/Main.java) | `O(n)` |
 |  [Rotate Matrix](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/770/) | [tranpose](https://en.wikipedia.org/wiki/Transpose) -> reverse each `matrix[i]`  | [transposed matrix](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/RotateMatrix/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
 
-## Strings 
+## Strings - back to [top](https://github.com/mughees-asif/leetcode-solutions#4-key)
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
@@ -92,21 +92,20 @@ Everyone is more than welcome to contribute to the solutions.
 |  [First Unique Character in a String](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | push `string.toCharArray()` -> loop and check `if (s.indexOf(arr[i]) == s.lastIndexOf(arr[i]))` -> return `i` if unique, else `-1` | [index of the first unique character](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/UniqueCharacter/src/com/mughees/Main.java) | `O(n)` |
 |  [Count and Say](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/886/) | use `StringBuilder` object to append to previous `Integer` as per the given input `int` | [integer as string at specified place](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/CountAndSay/src/com/mughees/Main.java) | `O(n)` |
 
-## Sorting and Searching 
+## Sorting and Searching - back to [top](https://github.com/mughees-asif/leetcode-solutions#4-key)
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Merge Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/96/sorting-and-searching/587/) | initiliase an array ` new int[nums1.length]` -> `Array.copyOfRange()` x 2 -> `Arrays.sort()` | [merged array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeArray/src/com/mughees/Main.java) | `O(1)` |
 
-## Dynamic Programming 
-
+## Dynamic Programming - back to [top](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Climbing The Stairs](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) | 1. *simple recursion* , 2. to reach the i<sup>th</sup> step -> `(i - 1) + (i - 2)` -> initialise array with `n` capacity -> use loop to determine i<sup>th</sup> element present in `arr[n]` | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/ClimbingTheStairs/src/com/mughees/Main.java) | *O(2<sup>n</sup>)* / `O(n)` |
 |  [Maximum Subarray](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/566/) | use [Kadane's](https://www.baeldung.com/java-maximum-subarray#1-kadanes-algorithm) Algorithm  | [integer representing the largest sum of a contiguous subarray](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/MaximumSubarray/src/com/mughees/Main.java) | `O(n)` |
 |  [House Robber](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/576/) | loop through array with every iteration at `i += 2` | [maximum integer of loot collected](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/HouseRobber/src/com/mughees/Main.java) | `O(n)` |
 
-## Math 
+## Math - back to [top](https://github.com/mughees-asif/leetcode-solutions#4-key)
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
