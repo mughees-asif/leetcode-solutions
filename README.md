@@ -55,14 +55,15 @@ Everyone is more than welcome to contribute to the solutions.
 
 ## 4. Key
 
-| Topic  | Navigate | Difficulty level |
+* hit the :memo: icon to navigate to the required section.
+
+| Topic  | Location | Difficulty level |
 | ------------- | ------------- | ------------- |
 | Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#arrays) | :green_book: |
 | Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#strings) | :green_book: | 
 | Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#sorting-and-searching) | :green_book: |
-| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#dynamics-programming) | :green_book: |
+| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#dynamic-programming) | :green_book: |
 | Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#math) | :green_book: |
-
 
 ----------------------------------------------------------------------------------------------
 
