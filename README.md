@@ -6,7 +6,11 @@
 
 ----------------------------------------------------------------------------------------------
 
-[![Mughees's github stats](https://github-readme-stats.vercel.app/api?username=mughees-asif&show_icons=true&theme=dark&hide=html,jupyternotebook)](https://www.linkedin.com/in/mugheesasif/)
+[![Mughees's github stats](https://github-readme-stats.vercel.app/api?username=mughees-asif&show_icons=true&theme=dark)](https://www.linkedin.com/in/mugheesasif/)
+
+----------------------------------------------------------------------------------------------
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mughees-asif&hide=html,jupyternotebook)](https://github.com/mughees-asif/github-readme-stats)
 
 ----------------------------------------------------------------------------------------------
 
