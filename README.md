@@ -6,7 +6,7 @@
 
 ----------------------------------------------------------------------------------------------
 
-[![Mughees's github stats](https://github-readme-stats.vercel.app/api?username=mughees-asif)](https://github.com/mughees-asif/github-readme-stats)
+[![Mughees's github stats](https://github-readme-stats.vercel.app/api?username=mughees-asif&show_icons=true)](https://github.com/mughees-asif/github-readme-stats)
 
 ----------------------------------------------------------------------------------------------
 
