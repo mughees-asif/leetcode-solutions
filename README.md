@@ -10,10 +10,6 @@
 
 ----------------------------------------------------------------------------------------------
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mughees-asif)](https://github.com/mughees-asif/github-readme-stats)
-
-----------------------------------------------------------------------------------------------
-
 ### 1. Getting Started
 
 * Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
