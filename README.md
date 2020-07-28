@@ -6,7 +6,7 @@
 
 ----------------------------------------------------------------------------------------------
 
-[![Mughees's github stats](https://github-readme-stats.vercel.app/api?username=mughees-asif&show_icons=true&theme=dark&hide=jupyterNotebook)](https://www.linkedin.com/in/mugheesasif/)
+[![Mughees's github stats](https://github-readme-stats.vercel.app/api?username=mughees-asif&show_icons=true&theme=dark&hide=html,jupyternotebook)](https://www.linkedin.com/in/mugheesasif/)
 
 ----------------------------------------------------------------------------------------------
 
