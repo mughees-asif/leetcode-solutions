@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://leetcode.com/">
+  <a href="https://www.linkedin.com/in/mugheesasif/">
     <img height=200 src="https://miro.medium.com/max/1200/1*Lur9rrJITsFRnuIYURYkSg.jpeg">
   </a>
 </p>
