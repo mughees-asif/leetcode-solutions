@@ -4,13 +4,13 @@
   </a>
 </p>
 
-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 ### 1. Getting Started
 
 * Review <a href="https://github.com/mughees-asif/java-algorithms-datastructures">implementations</a> of algorithms and data structures in Java
 
-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 ### 2. Running the code 
 
@@ -24,7 +24,7 @@ If running locally, then:
 
 * run ```Main.java``` with your Java compiler or run the ```main``` method in ```Main.java``` if using an IDE.
 
-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 ### 3. Contributing
 
@@ -103,8 +103,4 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Fizz Buzz](https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/743/) | simple boolean logic | [String list of numbers replaced with FizzBuzz](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/FizzBuzz/src/com/mughees/Main.java) | `O(n)` |
 |  [Prime Numbers](https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/744/) | use the [Sieve of Eratosthenes](https://www.baeldung.com/java-generate-prime-numbers#5-working-example-of-sieve-of-eratosthenes) algorithm | [integer showing total no. of prime numbers `<` method parameter](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/PrimeNumbers/src/com/mughees/Main.java) | `O(n log n)` |
 |  [Pascal's Triangle](https://leetcode.com/explore/interview/card/top-interview-questions-easy/99/others/601/) | generate the overall triangle list, which will store each row as a sublist -> check for the special case of `0` -> If `numRows > 0`, initialize triangle with `[1][1]` as its first row, and proceed to fill the rows  | [Pascal's Triangle](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/PascalTriangle/src/com/mughees/Main.java) | *O(numRows<sup>2</sup>)* |
-
-
-
-
-
+s
