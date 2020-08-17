@@ -50,18 +50,18 @@ class Solution {
 /*   Example:-
             maxDepth('1') = max(maxDepth('2'), maxDepth('3')) + 1
                 = 2 + 1
-                /    \
-                /         \
-                /             \
-                /                 \
-                /                     \
-        maxDepth('2') = 1                maxDepth('3') = 1
+                  /      \
+                  /         \
+                  /            \
+                  /               \
+                  /                  \
+              maxDepth('2') = 1      maxDepth('3') = 1
                 = max(maxDepth('4'), maxDepth('5')) + 1
                 = 1 + 1   = 2
-                /    \
-                /        \
-                /            \
-                /                \
-                /                    \
-                maxDepth('4') = 1     maxDepth('5') = 1
+                  /    \
+                  /      \
+                  /        \
+                  /           \
+                  /               \
+             maxDepth('4') = 1     maxDepth('5') = 1
 */
