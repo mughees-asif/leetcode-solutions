@@ -53,24 +53,24 @@ Everyone is more than welcome to contribute to the solutions.
 | Topic  | Location | Difficulty level |
 | ------------- | ------------- | ------------- |
 | Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#5-easy-collection) | :green_book: |
-| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easystrings---back-to-key) | :green_book: | 
-| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easysorting-and-searching---back-to-key) | :green_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#5-easy-collection) | :green_book: | 
+| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#5-easy-collection) | :green_book: |
 | Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easydynamic-programming---back-to-key) | :green_book: |
-| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easymath---back-to-key) | :green_book: |
-| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easytrees---back-to-key) | :green_book: |
+| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#5-easy-collection) | :green_book: |
+| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#5-easy-collection) | :green_book: |
 
 | Topic  | Location | Difficulty level |
 | ------------- | ------------- | ------------- |
-| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumarrays---back-to-key) | :orange_book: |
-| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumstrings---back-to-key) | :orange_book: | 
-| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumsorting-and-searching---back-to-key) | :orange_book: |
-| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumdynamic-programming---back-to-key) | :orange_book: |
-| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediummath---back-to-key) | :orange_book: |
-| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumtrees---back-to-key) | :orange_book: |
+| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection) | :orange_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection) | :orange_book: | 
+| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection) | :orange_book: |
+| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection) | :orange_book: |
+| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection) | :orange_book: |
+| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection) | :orange_book: |
 
 ----------------------------------------------------------------------------------------------
 
-# 5. Easy Collection
+# 5. Easy Collection :green_book:
 
 ## Arrays - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 
