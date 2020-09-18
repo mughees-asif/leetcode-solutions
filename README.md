@@ -131,7 +131,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [3Sum](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/) | Sort the array -> iterate through the list -> use another two pointers to approach the target | [list with arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/3Sum/src/Main.java) | *O(n<sup>2</sup>)* |
+|  [3Sum](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/) | sort the array -> iterate through the list -> use another two pointers to approach the target | [list with arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/3Sum/src/Main.java) | *O(n<sup>2</sup>)* |
 
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 

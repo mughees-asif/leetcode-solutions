@@ -20,6 +20,7 @@ public class Main {
                 int left = i + 1;
                 int right = num.length - 1;
                 int target = -num[i];
+
                 while (left < right) {
                     if (num[left] + num[right] == target) {
                         result.add(Arrays.asList(num[i], num[left], num[right]));
