@@ -52,16 +52,25 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Topic  | Location | Difficulty level |
 | ------------- | ------------- | ------------- |
-| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#arrays---back-to-key) | :green_book: |
-| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#strings---back-to-key) | :green_book: | 
-| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#sorting-and-searching---back-to-key) | :green_book: |
-| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#dynamic-programming---back-to-key) | :green_book: |
-| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#math---back-to-key) | :green_book: |
-| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#trees---back-to-key) | :green_book: |
+| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#5-easy-collection) | :green_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easystrings---back-to-key) | :green_book: | 
+| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easysorting-and-searching---back-to-key) | :green_book: |
+| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easydynamic-programming---back-to-key) | :green_book: |
+| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easymath---back-to-key) | :green_book: |
+| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#easytrees---back-to-key) | :green_book: |
+
+| Topic  | Location | Difficulty level |
+| ------------- | ------------- | ------------- |
+| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumarrays---back-to-key) | :orange_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumstrings---back-to-key) | :orange_book: | 
+| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumsorting-and-searching---back-to-key) | :orange_book: |
+| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumdynamic-programming---back-to-key) | :orange_book: |
+| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediummath---back-to-key) | :orange_book: |
+| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#mediumtrees---back-to-key) | :orange_book: |
 
 ----------------------------------------------------------------------------------------------
 
-# 5. Interview preparation
+# 5. Easy Collection
 
 ## Arrays - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 
@@ -113,3 +122,38 @@ Everyone is more than welcome to contribute to the solutions.
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Maximum Depth of Tree](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | see code for a detailed explanation | [integer showing the max. depth of given tree](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Trees/MaxDepth/src/Solution.java) | *O(2<sup>n</sup>)* / `O(n)` |
+
+----------------------------------------------------------------------------------------------
+
+# 6. Medium Collection
+
+## Arrays - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+
+
+## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+
+
+## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+
+
+## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+
+
+## Math - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+
+
+## Trees - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
