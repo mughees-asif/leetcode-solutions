@@ -136,7 +136,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-
+|  [Longest Substring without repeating characters](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/2920/) |  | [longest substring](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/3Sum/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
 
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
