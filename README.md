@@ -73,7 +73,6 @@ Everyone is more than welcome to contribute to the solutions.
 # 5. Easy Collection :green_book:
 
 ## Arrays - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/) | push array elements to `HashSet` -> duplicates automatically removed -> return `HashSet.size()` | [length of array w\out duplicates](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Duplicates/src/com/mughees/Main.java) | `O(n)` |
@@ -86,7 +85,6 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Intersection of Arrays II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/) | Sort both arrays -> initiliase two pointers `i, j` (one for each array) -> logic check `if (arr1[i] > arr[j]) OR (arr1[i] < arr2[j])` -> if both logic checks are false, we have an intersection (common element) | [array of common elements b/w both input arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/IntersectionArray/src/com/mughees/Main.java) | `O(N+N+N)` |
 
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Reverse String](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | reverses a given char array by using the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/) | [reversed char array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/ReverseString/src/com/mughees/Main.java) | `O(n)` |
@@ -136,7 +134,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Longest Substring without repeating characters](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/2920/) |  | [longest substring](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/3Sum/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
+|  [Longest Substring without repeating characters](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/2920/) |  | [longest substring](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/LongestSubstring/src/com/mughees/Main.java) |  |
 
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
