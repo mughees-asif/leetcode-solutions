@@ -1,6 +1,7 @@
 package com.mughees;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
 
@@ -11,14 +12,20 @@ public class Main {
     }
 
     public static int lengthOfLongestSubstring(String s) {
-        s = s.replaceAll("\\W", "").toLowerCase();
+        int length = s.length();
+        Set<Character> set = new HashSet<>();
+        int ans = 0;
+        int i = 0;
+        int j = 0;
 
-        HashSet<Character> hashSet = new HashSet<>();
-        for(char i = 0; i < s.length();i++) {
-            hashSet.add(s.charAt(i));
+        while(i < length && j < length) {
+            if(!set.contains(s.charAt(j))){
+                set.add(s.charAt(j++));
+                ans = Math.max(ans, j - i);
+            } else {
+                set.remove(s.charAt(i++));
+            }
         }
-        System.out.println(hashSet);
-
-        return hashSet.size();
+        return ans;
     }
 }
