@@ -15,15 +15,15 @@ public class Main {
         int length = s.length();
         Set<Character> set = new HashSet<>();
         int ans = 0;
-        int i = 0;
-        int j = 0;
+        int leftPointer = 0;
+        int rightPointer = 0;
 
-        while(i < length && j < length) {
-            if(!set.contains(s.charAt(j))){
-                set.add(s.charAt(j++));
-                ans = Math.max(ans, j - i);
+        while(leftPointer < length && rightPointer < length) {
+            if(!set.contains(s.charAt(rightPointer))){
+                set.add(s.charAt(rightPointer++));
+                ans = Math.max(ans, rightPointer - leftPointer);
             } else {
-                set.remove(s.charAt(i++));
+                set.remove(s.charAt(leftPointer++));
             }
         }
         return ans;
