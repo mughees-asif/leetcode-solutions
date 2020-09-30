@@ -130,6 +130,7 @@ Everyone is more than welcome to contribute to the solutions.
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [3Sum](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/) | sort the array -> iterate through the list -> use another two pointers to approach the target | [list with arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/3Sum/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
+|  [Spiral Matrix](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/395/) |  | [spiral elements of given matrix](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/LongestSubstring/src/com/mughees/Main.java) | `O(n)` |
 
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
