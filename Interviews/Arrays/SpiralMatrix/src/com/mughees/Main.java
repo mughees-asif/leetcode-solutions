@@ -1,11 +1,6 @@
 package com.mughees;
 
-import org.w3c.dom.css.CSSImportRule;
-
-import javax.swing.*;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -17,34 +12,36 @@ public class Main {
                 {7, 8, 9}
         };
         System.out.println(spiralOrder(test));
-
+        int[][] test2 = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9,10,11,12}
+        };
+        System.out.println(spiralOrder(test2));
     }
 
     public static List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> result = new ArrayList<>(9);
-        List<Integer> backwardsRow = new ArrayList<>();
-
-        for(int i = matrix[2].length - 1; i >= 0; i--) {
-            backwardsRow.add(matrix[2][i]);
-        }
-
-        int length = matrix.length;
-        for (int row = 0; row < length; row++) {
-            for (int column = 0; column < matrix[row].length; column++) {
-                if (row == 0) {
-                    result.add(matrix[row][column]);
-                } else if (row == 1) {
-                    result.add(matrix[row][length - 1]);
-                    result.add(matrix[row][0]);
-                    result.add(matrix[row][1]);
-                    break;
-                } else {
-                    result.addAll(matrix[column].length, backwardsRow);
-                    break;
-                }
+        List<Integer> ans = new ArrayList<Integer>();
+        if (matrix.length == 0) return ans;
+        int R = matrix.length, C = matrix[0].length;
+        boolean[][] seen = new boolean[R][C];
+        int[] dr = {0, 1, 0, -1};
+        int[] dc = {1, 0, -1, 0};
+        int r = 0, c = 0, di = 0;
+        for (int i = 0; i < R * C; i++) {
+            ans.add(matrix[r][c]);
+            seen[r][c] = true;
+            int cr = r + dr[di];
+            int cc = c + dc[di];
+            if (0 <= cr && cr < R && 0 <= cc && cc < C && !seen[cr][cc]){
+                r = cr;
+                c = cc;
+            } else {
+                di = (di + 1) % 4;
+                r += dr[di];
+                c += dc[di];
             }
         }
-
-        return result;
+        return ans;
     }
 }
