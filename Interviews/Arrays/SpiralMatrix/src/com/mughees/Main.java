@@ -38,10 +38,13 @@ public class Main {
                     result.add(matrix[row][0]);
                     result.add(matrix[row][1]);
                     break;
+                } else {
+                    result.addAll(matrix[column].length, backwardsRow);
+                    break;
                 }
             }
         }
-        result.addAll(4, backwardsRow);
+
         return result;
     }
 }
