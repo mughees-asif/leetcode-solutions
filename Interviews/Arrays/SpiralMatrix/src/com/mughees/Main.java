@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         if (matrix.length == 0) return ans;
         int R = matrix.length, C = matrix[0].length;
         boolean[][] seen = new boolean[R][C];
