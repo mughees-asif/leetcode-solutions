@@ -12,15 +12,17 @@ public class Main {
     }
 
     static int subarraySum(int[] nums, int k) {
-        int count = 0, sum = 0;
+        int counter = 0;
+        int total_sum = 0;
+
         HashMap < Integer, Integer > map = new HashMap < > ();
         map.put(0, 1);
         for (int num : nums) {
-            sum += num;
-            if (map.containsKey(sum - k))
-                count += map.get(sum - k);
-            map.put(sum, map.getOrDefault(sum, 0) + 1);
+            total_sum += num;
+            if (map.containsKey(total_sum - k))
+                counter += map.get(total_sum - k);
+            map.put(total_sum, map.getOrDefault(total_sum, 0) + 1);
         }
-        return count;
+        return counter;
     }
 }
