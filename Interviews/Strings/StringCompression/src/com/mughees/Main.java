@@ -3,6 +3,9 @@ package com.mughees;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println(firstUnique("leetcode"));
+        System.out.println(firstUnique("loveleetcode"));
     }
+
+
 }
