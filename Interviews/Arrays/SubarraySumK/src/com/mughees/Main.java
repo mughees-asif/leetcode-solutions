@@ -1,5 +1,8 @@
 package com.mughees;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,23 +12,15 @@ public class Main {
     }
 
     static int subarraySum(int[] nums, int k) {
-        int left = 0;
-        int right = 0;
-        int counter = 0;
-        int current_sum = 0;
-
-        while(left < nums.length && right < nums.length) {
-            current_sum += nums[right];
-            if (current_sum < k) {
-                right++;
-            } else if (current_sum > k) {
-                current_sum -= nums[left];
-                left++;
-            } else {
-                counter++;
-            }
-            System.out.println("currentSum = " + current_sum);
+        int count = 0, sum = 0;
+        HashMap < Integer, Integer > map = new HashMap < > ();
+        map.put(0, 1);
+        for (int num : nums) {
+            sum += num;
+            if (map.containsKey(sum - k))
+                count += map.get(sum - k);
+            map.put(sum, map.getOrDefault(sum, 0) + 1);
         }
-        return counter;
+        return count;
     }
 }
