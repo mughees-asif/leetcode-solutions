@@ -46,7 +46,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 ----------------------------------------------------------------------------------------------
 
-## 4. Key
+### 4. Key
 
 * hit the :memo: icon to navigate to the required section.
 
@@ -142,7 +142,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-
+|  [Search in Rotated Sorted Array](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/405/) | use linear search for `O(n)` solution -> use binary search to reduce complextiy to `O(log n)` | [index of pivot point](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/SearchRotatedArray/src/com/mughees/Main.java) | `O(n)` |
 
 ## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
