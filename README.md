@@ -143,7 +143,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Merge Intervals](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | notice for merging, the `lastIndex` of `firstArray >= firstIndex` of `secondArray` -> if you use this logic, it cuts the need to check each each interval | [merged interval array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeIntervals/src/com/mughees/Main.java) | `O(n log n)` |
+|  [Merge Intervals](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | notice for merging, the `lastIndex` of `firstArray >= firstIndex` of `secondArray` -> if you use this logic, it cuts the need to check each interval | [merged interval array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeArray/src/com/mughees/Main.java) | `O(n log n)` |
 
 ## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
@@ -153,6 +153,8 @@ Everyone is more than welcome to contribute to the solutions.
 ## Math - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
+|  [Median of Two Sorted Arrays](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2937/) |  | [median of two arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/MedianSortedArrays/src/com/mughees/Main.java) | `O(n)` |
+
 
 
 ## Trees - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
