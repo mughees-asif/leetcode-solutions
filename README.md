@@ -138,6 +138,7 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |------------- |
 |  [Longest Substring without repeating characters](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/2920/) | use the [sliding window](https://levelup.gitconnected.com/an-introduction-to-sliding-window-algorithms-5533c4fe1cc7) approach | [longest substring](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/LongestSubstring/src/com/mughees/Main.java) | `O(n)` |
 |  [String Compression](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/402/) | push `input[]` to `LinkedHashMap` to preserve order -> map keys and values -> print | [compressed string](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/StringCompression/src/com/mughees/Main.java) | `O(n)` |
+|  [Sort Characters By Frequency](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/432/) |  | [descending order of character frequency](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/StringCompression/src/com/mughees/Main.java) | `O(n)` |
 
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
