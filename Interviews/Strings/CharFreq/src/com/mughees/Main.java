@@ -1,30 +1,32 @@
 package com.mughees;
 
-import java.util.HashMap;
-import java.util.Map;
+import jdk.swing.interop.SwingInterOpUtils;
+
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        frequencySort("tree");
-        frequencySort("cccaaa");
-        frequencySort("Aabb");
+        System.out.println(frequencySort("tree"));
+        System.out.println(frequencySort("cccaaa"));
+        System.out.println(frequencySort("Aabb"));
 
     }
 
-    public static void frequencySort(String s) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        int freqeuncy = 0;
-        for(char c : s.toCharArray()) {
-            if(map.containsKey(c)) {
-                map.put(c, map.get(c) + 1);
-
-            } else {
-                map.put(c, 1);
-                freqeuncy++;
+    public static String frequencySort(String s) {
+        Map<Character, Integer> counts = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            counts.put(c, counts.getOrDefault(c, 0) + 1);
+        }
+        List<Character> characters = new ArrayList<>(counts.keySet());
+        characters.sort((a, b) -> counts.get(b) - counts.get(a));
+        StringBuilder sb = new StringBuilder();
+        for(char c : characters) {
+            int copies = counts.get(c);
+            for (int i = 0; i < copies; i++) {
+                sb.append(c);
             }
         }
-        System.out.println(freqeuncy);
-
+        return sb.toString();
     }
 }
