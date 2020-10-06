@@ -153,7 +153,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Math - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Median of Two Sorted Arrays](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2937/) |  | [median of two arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/MedianSortedArrays/src/com/mughees/Main.java) | `O(n)` |
+|  [Median of Two Sorted Arrays](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2937/) | push both arrays into `result` array -> logic check for median (check the comments) | [median of two arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/MedianSortedArrays/src/com/mughees/Main.java) | `O(n)` |
 
 
 
