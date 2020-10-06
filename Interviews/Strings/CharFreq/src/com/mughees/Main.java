@@ -1,7 +1,5 @@
 package com.mughees;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.*;
 
 public class Main {
@@ -14,19 +12,25 @@ public class Main {
     }
 
     public static String frequencySort(String s) {
+        if (s == null || s.isEmpty()) return s;
+        // count occurrences
         Map<Character, Integer> counts = new HashMap<>();
         for (char c : s.toCharArray()) {
             counts.put(c, counts.getOrDefault(c, 0) + 1);
         }
+
+        // build up sorted frequency list
         List<Character> characters = new ArrayList<>(counts.keySet());
         characters.sort((a, b) -> counts.get(b) - counts.get(a));
-        StringBuilder sb = new StringBuilder();
+
+        // append char to  result string
+        StringBuilder result = new StringBuilder();
         for(char c : characters) {
             int copies = counts.get(c);
             for (int i = 0; i < copies; i++) {
-                sb.append(c);
+                result.append(c);
             }
         }
-        return sb.toString();
+        return result.toString();
     }
 }
