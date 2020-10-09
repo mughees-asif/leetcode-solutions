@@ -21,7 +21,6 @@ public class Main {
                 left = i - ((length - 1) / 2);
                 right = i + (length / 2);
             }
-
         }
         return s.substring(left, right + 1);
     }
