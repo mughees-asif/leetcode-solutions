@@ -145,7 +145,7 @@ Everyone is more than welcome to contribute to the solutions.
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Merge Intervals](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | notice for merging, the `lastIndex` of `firstArray >= firstIndex` of `secondArray` -> if you use this logic, it cuts the need to check each interval | [merged interval array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeArray/src/com/mughees/Main.java) | `O(n log n)` |
-|  [Top K Frequent Words](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) |  | [top K frequent words](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/TopKWords/src/com/mughees/Main.java) | `O(n log n)` |
+|  [Top K Frequent Words](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | count occurrences -> check for alphabetical order using custom `Comparator` in a `PriorityQueue` -> remove all the elements that are more than `K` frequency -> reverse `result` list | [top K frequent words](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/TopKWords/src/com/mughees/Main.java) | `O(n log K)` |
 
 ## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
