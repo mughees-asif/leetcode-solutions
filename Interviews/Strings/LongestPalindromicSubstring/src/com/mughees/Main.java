@@ -18,7 +18,7 @@ public class Main {
             int length = Math.max(length_1, length_2);
 
             if(length > left - right) {
-
+                left = i - ((length - 1) / 2);
             }
 
         }
