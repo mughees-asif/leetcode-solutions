@@ -1,9 +1,6 @@
 package com.mughees;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
 
@@ -12,13 +9,29 @@ public class Main {
     }
 
     public static List<String> topKFrequent(String[] words, int k) {
-        List<String> list = new ArrayList<>();
+        List<String> result = new ArrayList<>();
+
+        // count occurrences
         Map<String, Integer> map = new HashMap<>();
         for (String s : words) {
             map.put(s, map.getOrDefault(s, 0) + 1);
         }
 
-        System.out.println(map);
-        return list;
+        // check
+        PriorityQueue<String> pq = new PriorityQueue<>((o1, o2) -> {
+            int freq_1 = map.get(o1);
+            int freq_2 = map.get(o2);
+            if(freq_1 < freq_2) return o2.compareTo(o1);
+            return freq_1 - freq_2;
+        });
+
+        for(Map.Entry<String, Integer> entry : map.entrySet()) {
+            pq.add(entry.getKey());
+            if(pq.size() > k)   pq.poll();
+        }
+
+        Collections.reverse(result);
+        while(!pq.isEmpty())    result.add(pq.poll());
+        return result;
     }
 }
