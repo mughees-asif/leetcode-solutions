@@ -17,11 +17,13 @@ public class Main {
             int length_2 = expandFromMiddle(s, i, i + 1);
             int length = Math.max(length_1, length_2);
 
-            if(length > left - right) {
+            if(length > right - left) {
                 left = i - ((length - 1) / 2);
+                right = i + (length / 2);
             }
 
         }
+        return s.substring(left, right + 1);
     }
 
     public static int expandFromMiddle(String s, int start, int end) {
@@ -31,6 +33,6 @@ public class Main {
             start--;
             end++;
         }
-        return end - start + 1;
+        return end - start - 1;
     }
 }
