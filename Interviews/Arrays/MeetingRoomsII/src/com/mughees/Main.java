@@ -1,13 +1,12 @@
 package com.mughees;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
     }
 
     public int minMeetingRooms(int[][] intervals) {
@@ -17,14 +16,7 @@ public class Main {
         }
 
         // Min heap
-        PriorityQueue<Integer> allocator =
-                new PriorityQueue<Integer>(
-                        intervals.length,
-                        new Comparator<Integer>() {
-                            public int compare(Integer a, Integer b) {
-                                return a - b;
-                            }
-                        });
+        PriorityQueue<Integer> allocator = new PriorityQueue<Integer>(intervals.length, (a, b) -> a - b);
 
         // Sort the intervals by start time
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
