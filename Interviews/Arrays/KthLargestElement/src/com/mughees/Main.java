@@ -9,17 +9,17 @@ public class Main {
     }
     public static int findKthLargest(int[] nums, int k) {
         int result = 0;
+        int length = nums.length;
         Arrays.sort(nums);
         // reverse sorted array - descending
-        for(int i = nums.length - 1, j = 0; i > 0; i--, j++) {
-            int temp = nums[i];
-            nums[i] = nums[j];
-            nums[j] = temp;
+        for(int i = 0; i < length/2; i++) {
+            
         }
         System.out.println(Arrays.toString(nums));
 
 
         return result;
     }
+
 
 }
