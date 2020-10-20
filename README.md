@@ -141,26 +141,10 @@ Everyone is more than welcome to contribute to the solutions.
 |  [String Compression](https://leetcode.com/explore/interview/card/bloomberg/68/array-and-strings/402/) | push `input[]` to `LinkedHashMap` to preserve order -> map keys and values -> print | [compressed string](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/StringCompression/src/com/mughees/Main.java) | `O(n)` |
 |  [Sort Characters By Frequency](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/432/) | use a `HashMap` to count occurrences of the `char` -> compare and print using `StringBuilder` (avoid string concatenation) | [descending order of character frequency](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/CharFreq/src/com/mughees/Main.java) | `O(n log n)` |
 |  [Longest Palindromic Substring](https://leetcode.com/explore/interview/card/bloomberg/73/dynamic-programming/2940/) | there are alot of ways to do this problem, most common solutions use dynamic programming -> this solution uses an `expandFromTheMiddle` helper method -> Leetcode explains it very well: "We observe that a palindrome mirrors around its center. Therefore, a palindrome can be expanded from its center, and there are only `2n − 1` such centers. You might be asking why there are `2n − 1` but not `n` centers? The reason is the center of a palindrome can be in between two letters. Such palindromes have even number of letters (such as "abba") and its center are between the two 'b's." | [longest palindromic substring](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/LongestPalindromicSubstring/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
+|  [Longest Palindromic Substring](https://leetcode.com/explore/interview/card/bloomberg/73/dynamic-programming/2940/) | there are alot of ways to do this problem, most common solutions use dynamic programming -> this solution uses an `expandFromTheMiddle` helper method -> Leetcode explains it very well: "We observe that a palindrome mirrors around its center. Therefore, a palindrome can be expanded from its center, and there are only `2n − 1` such centers. You might be asking why there are `2n − 1` but not `n` centers? The reason is the center of a palindrome can be in between two letters. Such palindromes have even number of letters (such as "abba") and its center are between the two 'b's." | [longest palindromic substring](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/LongestPalindromicSubstring/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
 
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Merge Intervals](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | notice for merging, the `lastIndex` of `firstArray >= firstIndex` of `secondArray` -> if you use this logic, it cuts the need to check each interval | [merged interval array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeArray/src/com/mughees/Main.java) | `O(n log n)` |
 |  [Top K Frequent Words](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | count occurrences -> check for alphabetical order using custom `Comparator` in a `PriorityQueue` -> remove all the elements that are more than `K` frequency -> reverse `result` list | [top K frequent words](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/TopKWords/src/com/mughees/Main.java) | `O(n log K)` |
-
-## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-| Challenge  | Explanation  | Returns | Time complexity |
-| ------------- | ------------- | ------------- |------------- |
-
-
-## Math - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-| Challenge  | Explanation  | Returns | Time complexity |
-| ------------- | ------------- | ------------- |------------- |
-|  [Median of Two Sorted Arrays](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2937/) | push both arrays into `result` array -> logic check for median (check the comments) | [median of two arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/MedianSortedArrays/src/com/mughees/Main.java) | `O(n)` |
-
-
-
-## Trees - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-| Challenge  | Explanation  | Returns | Time complexity |
-| ------------- | ------------- | ------------- |------------- |
-
