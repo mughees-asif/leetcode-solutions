@@ -2,6 +2,8 @@ package com.mughees;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 public class Main {
 
@@ -13,5 +15,18 @@ public class Main {
     public static int findKthLargest(int[] nums, int k) {
         Arrays.sort(nums);
         return nums[nums.length - k];
+    }
+
+    public int findKthLargest2(int[] nums, int k) {
+        // init heap 'the smallest element first
+        PriorityQueue<Integer> heap = new PriorityQueue<>(Comparator.comparingInt(n -> n));
+        // keep k largest elements in the heap
+        for (int n: nums) {
+            heap.add(n);
+            if (heap.size() > k)
+                heap.poll();
+        }
+        // output
+        return heap.poll();
     }
 }
