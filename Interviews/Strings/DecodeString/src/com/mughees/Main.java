@@ -15,11 +15,21 @@ public class Main {
         Stack<Character> ch = new Stack<>();
 
         while (index < s.length()) {
-            // first condition: digit
 
+            // first condition: digit
+            if (Character.isDigit(s.charAt(index))) {
+                int counts = 0;
+                while (Character.isDigit(s.charAt(index))) {
+                    counts = 10 * counts + (s.charAt(index) - '0');
+                    index += 1;
+                }
+                count.push(counts);
+            }
 
             // second condition: open bracket ('[')
-
+            else if (s.charAt(index) == '[') {
+                
+            }
 
             //third condition: close bracket (']')
 
