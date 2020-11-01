@@ -11,8 +11,8 @@ public class Main {
     public String decodeString(String s) {
         int index = 0;
         String result = "";
-        Stack<Integer> count = new Stack<>();
-        Stack<String> ch = new Stack<>();
+        Stack<Integer> digits = new Stack<>();
+        Stack<String> characters = new Stack<>();
 
         while (index < s.length()) {
 
@@ -21,30 +21,34 @@ public class Main {
                 int counts = 0;
                 while (Character.isDigit(s.charAt(index))) {
                     counts = 10 * counts + (s.charAt(index) - '0');
-                    index += 1;
+                    index++;
                 }
-                count.push(counts);
+                digits.push(counts);
             }
 
             // second condition: open bracket ('[')
             else if (s.charAt(index) == '[') {
-                ch.push(result);
+                characters.push(result);
                 result = "";
-                index += 1;
+                index++;
             }
 
             //third condition: close bracket (']')
             else if (s.charAt(index) == ']') {
-                StringBuilder temp = new StringBuilder(ch.pop());
-                int counts = count.pop();
+                StringBuilder temp = new StringBuilder(characters.pop());
+                int counts = digits.pop();
                 for (int i = 0; i < counts; i++) {
                     temp.append(result);
                 }
                 result = temp.toString();
-                index += 1;
+                index++;
             }
 
             // fourth condition: character
+            else {
+                result += s.charAt(index);
+                index++;
+            }
 
         }
         return result;
