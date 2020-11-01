@@ -12,7 +12,7 @@ public class Main {
         int index = 0;
         String result = "";
         Stack<Integer> count = new Stack<>();
-        Stack<Character> ch = new Stack<>();
+        Stack<String> ch = new Stack<>();
 
         while (index < s.length()) {
 
@@ -28,11 +28,21 @@ public class Main {
 
             // second condition: open bracket ('[')
             else if (s.charAt(index) == '[') {
-                
+                ch.push(result);
+                result = "";
+                index += 1;
             }
 
             //third condition: close bracket (']')
-
+            else if (s.charAt(index) == ']') {
+                StringBuilder temp = new StringBuilder(ch.pop());
+                int counts = count.pop();
+                for (int i = 0; i < counts; i++) {
+                    temp.append(result);
+                }
+                result = temp.toString();
+                index += 1;
+            }
 
             // fourth condition: character
 
