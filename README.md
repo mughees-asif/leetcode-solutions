@@ -150,6 +150,7 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Find And Replace in String](https://leetcode.com/explore/interview/card/google/59/array-and-strings/3057/) | an important detail in the question is that there is no overlapping region | [string](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/FindAndReplace/src/com/mughees/Main.java) | `O(n * r)`, n = length of string, r = replacement operations |
 |  [Word Search II](https://leetcode.com/explore/interview/card/google/62/recursion-4/462/) | [TRIE](https://www.youtube.com/watch?v=zIjfhVPRZCg) it | [available words in the 2D grid](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/WordSearchII/src/com/mughees/Main.java) | `O(n)` |
 |  [Multiply Strings](https://leetcode.com/explore/interview/card/google/59/array-and-strings/3051/) | solution based on elementary math multiplication, check the code for comments | [product of the two input strings](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/MultiplyStrings/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
+|  [Decode String](https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3073/) |  | [decoded string](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/DecodeString/src/com/mughees/Main.java) | *O(n)* |
 
 
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
