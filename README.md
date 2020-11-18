@@ -122,7 +122,6 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Maximum Depth of Tree](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | see code for a detailed explanation | [integer showing the max. depth of given tree](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Trees/MaxDepth/src/Solution.java) | *O(2<sup>n</sup>)* / `O(n)` |
 
 --------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------
 
 # 6. Medium Collection :orange_book:
 
