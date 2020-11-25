@@ -1,6 +1,7 @@
 package com.mughees;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -12,6 +13,7 @@ public class Main {
     }
 
     public static boolean backspaceCompare(String S, String T) {
+
         List<Character> first = new ArrayList<>();
         for(char c : S.toCharArray()) {
             first.add(c);
