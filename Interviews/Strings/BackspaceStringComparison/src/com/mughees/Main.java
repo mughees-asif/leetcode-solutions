@@ -1,8 +1,6 @@
 package com.mughees;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Stack;
 
 public class Main {
 
@@ -13,34 +11,18 @@ public class Main {
     }
 
     public static boolean backspaceCompare(String S, String T) {
+        return build(S).equals(build(T));
+    }
 
-        List<Character> first = new ArrayList<>();
-        for(char c : S.toCharArray()) {
-            first.add(c);
-        }
-
-        List<Character> second = new ArrayList<>();
-        for(char c : T.toCharArray()) {
-            second.add(c);
-        }
-
-        for (int i = 0; i < first.size(); i++) {
-            if(first.get(i) == '#') {
-                first.remove(i);
-                first.remove(i -1);
+    public static String build(String S) {
+        Stack<Character> ans = new Stack<>();
+        for (char c: S.toCharArray()) {
+            if (c != '#') {
+                ans.push(c);
+            } else if (!ans.empty()) {
+                ans.pop();
             }
         }
-
-        for (int i = 0; i < second.size(); i++) {
-            if (second.get(i) == '#') {
-                second.remove(i);
-                second.remove(i - 1);
-            }
-        }
-
-        System.out.println(first);
-        System.out.println(second);
-
-        return first.equals(second);
+        return String.valueOf(ans);
     }
 }
