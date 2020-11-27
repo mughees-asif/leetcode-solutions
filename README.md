@@ -157,3 +157,8 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |------------- |
 |  [Merge Intervals](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | notice for merging, the `lastIndex` of `firstArray >= firstIndex` of `secondArray` -> if you use this logic, it cuts the need to check each interval | [merged interval array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeIntervals/src/com/mughees/Main.java) | `O(n log n)` |
 |  [Top K Frequent Words](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | count occurrences -> check for alphabetical order using custom `Comparator` in a `PriorityQueue` -> remove all the elements that are more than `K` frequency -> reverse `result` list | [top K frequent words](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/TopKWords/src/com/mughees/Main.java) | `O(n log K)` |
+
+## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+|  [Coin Change](https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/569/) |  | [integer showing the number of step combinations available](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/CoinChange/src/com/mughees/Main.java) |  |
