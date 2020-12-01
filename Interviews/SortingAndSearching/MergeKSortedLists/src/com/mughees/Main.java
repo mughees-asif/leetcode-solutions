@@ -1,18 +1,13 @@
 package com.mughees;
 
-import java.util.*;
-
-//Definition for singly-linked list.
+//Definition for singly-linked list
 class ListNode {
     int val;
     ListNode next;
 
-    ListNode() {
-    }
+    ListNode() {}
 
-    ListNode(int val) {
-        this.val = val;
-    }
+    ListNode(int val) { this.val = val; }
 
     ListNode(int val, ListNode next) {
         this.val = val;
@@ -23,17 +18,20 @@ class ListNode {
 
 public class Main {
 
-    public static void main(String[] args) {
-
+    private static ListNode mergeTwoLists(ListNode l_1, ListNode l_2) {
+        if (l_1 == null) {
+            return l_2;
+        }
+        else if (l_2 == null) {
+            return l_1;
+        }
+        else if (l_1.val < l_2.val) {
+            l_1.next = mergeTwoLists(l_1.next, l_2);
+            return l_1;
+        }
+        else {
+            l_2.next = mergeTwoLists(l_1, l_2.next);
+            return l_2;
+        }
     }
-
-    public static ListNode mergeTwoLists(ListNode list_1, ListNode list_2) {
-        ListNode result = null;
-
-        PriorityQueue<ListNode> pq = new PriorityQueue<>(Collections.reverseOrder());
-
-
-        return result;
-    }
-
 }
