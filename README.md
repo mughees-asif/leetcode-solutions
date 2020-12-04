@@ -191,7 +191,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |  | [K merged lists](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeKSortedLists2/src/com/mughees/Main.java) |  |
+|  [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | use a `PriorityQueue` (min heap) to keep track of smallest element in each list | [K merged lists](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeKSortedLists2/src/com/mughees/Main.java) |  |
 
 ## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
