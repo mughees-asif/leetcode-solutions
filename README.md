@@ -68,6 +68,15 @@ Everyone is more than welcome to contribute to the solutions.
 | Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
 | Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
 
+| Topic  | Location | Difficulty level |
+| ------------- | ------------- | ------------- |
+| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: | 
+| Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
+| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
+| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
+| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-medium-collection-orange_book) | :orange_book: |
+
 --------------------------------------------------------------------------------------------
 
 # 5. Easy Collection :green_book:
