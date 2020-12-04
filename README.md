@@ -171,7 +171,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Coin Change](https://leetcode.com/explore/interview/card/google/64/dynamic-programming-4/3088/) | recursion 101 | [integer showing the minimum combinations needed to make amount](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/CoinChange/src/com/mughees/Main.java) | `O(n * m)`, n = size of coins array, m = amount |
+|  [Coin Change](https://leetcode.com/explore/interview/card/google/64/dynamic-programming-4/3088/) | dynamic programming 101 | [integer showing the minimum combinations needed to make amount](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/DynamicProgramming/CoinChange/src/com/mughees/Main.java) | `O(n * m)`, n = size of coins array, m = amount |
 
 --------------------------------------------------------------------------------------------
 
