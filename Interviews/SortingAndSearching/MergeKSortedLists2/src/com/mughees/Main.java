@@ -24,7 +24,7 @@ class ListNode {
 
 class Main {
     public ListNode mergeKLists(ListNode[] lists) {
-        Queue<ListNode> minHeap = new PriorityQueue<>((o1, o2) -> { return o1.val - o2.val;});
+        Queue<ListNode> minHeap = new PriorityQueue<>();
         for (ListNode list : lists) {
             if (list != null) {
                 minHeap.add(list);
