@@ -9,27 +9,25 @@ public class Main {
     }
 
     public static int[] productExceptSelf(int[] nums) {
-        int N = nums.length;
+        int length = nums.length;
 
-        // products of all elements
-        int[] productBelow = new int[N];
-        int p = 1;
-        for (int i = 0; i < N; ++i) {
-            productBelow[i] = p;
-            p *= nums[i];
+        int[] productA = new int[length];
+        int sum = 1;
+        for (int i = 0; i < length; ++i) {
+            productA[i] = sum;
+            sum *= nums[i];
         }
-        System.out.println(Arrays.toString(productBelow));
 
-        int[] productAbove = new int[N];
-        p = 1;
-        for (int i = N - 1; i >= 0; --i) {
-            productAbove[i] = p;
-            p *= nums[i];
+        int[] productB = new int[length];
+        sum = 1;
+        for (int i = length - 1; i >= 0; --i) {
+            productB[i] = sum;
+            sum *= nums[i];
         }
-        System.out.println(Arrays.toString(productAbove));
-        int[] products = new int[N];
-        for (int i = 0; i < N; ++i) {
-            products[i] = productBelow[i] * productAbove[i];
+
+        int[] products = new int[length];
+        for (int i = 0; i < length; ++i) {
+            products[i] = productA[i] * productB[i];
         }
         return products;
     }
