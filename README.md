@@ -135,7 +135,6 @@ Everyone is more than welcome to contribute to the solutions.
 # 6. Medium Collection :orange_book:
 
 ## Arrays - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [3Sum](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/) | sort the array -> iterate through the list -> use another two pointers to approach the target | [list with arrays](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/3Sum/src/com/mughees/Main.java) | *O(n<sup>2</sup>)* |
@@ -147,6 +146,8 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Trapping Rain Water](https://leetcode.com/explore/interview/card/google/59/array-and-strings/3048/) | use the [two-pointer method](https://leetcode.com/articles/two-pointer-technique/), check out the comments on the code | [int representing the amount of trapped water](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/TrappingRainWater/src/com/mughees/Main.java) | `O(n)` |
 |  [Permutations](https://leetcode.com/problems/permutations/) | [Heap's algorithm](https://stackoverflow.com/questions/24889201/heaps-algorithm) | [all possible permutations](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/Permutations/src/com/mughees/Main.java) | `O(n)` |
 |  [Next Permutation](https://leetcode.com/explore/interview/card/google/59/array-and-strings/3050/) | [tricky](https://assets.leetcode.com/static_assets/media/original_images/31_Next_Permutation.gif) | [lexographically greater arrangement](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/NextPermutation/src/com/mughees/Main.java) | `O(n)` |
+|  [Product of array except self](https://leetcode.com/explore/interview/card/apple/344/array-and-strings/3113/) |  | [product of all elements except input[i]](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Arrays/NextPermutation/src/com/mughees/Main.java) | `O(n)` |
+
 
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
