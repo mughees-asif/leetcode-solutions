@@ -70,12 +70,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 | Topic  | Location | Difficulty level |
 | ------------- | ------------- | ------------- |
-| Arrays | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
-| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: | 
 | Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
-| Dynamic Programming | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
-| Math | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
-| Trees | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
 
 --------------------------------------------------------------------------------------------
 
@@ -178,23 +173,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 # 6. Hard Collection :closed_book:
 
-## Arrays - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-
-| Challenge  | Explanation  | Returns | Time complexity |
-| ------------- | ------------- | ------------- |------------- |
-
-
-## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-| Challenge  | Explanation  | Returns | Time complexity |
-| ------------- | ------------- | ------------- |------------- |
-
-
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
 |  [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | use a `PriorityQueue` (min heap) to keep track of the smallest element in each list | [K merged lists](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeKSortedLists2/src/com/mughees/Main.java) | `O(n log k)`, n = no. of nodes, k = no. of lists |
-
-## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
-| Challenge  | Explanation  | Returns | Time complexity |
-| ------------- | ------------- | ------------- |------------- |
-
