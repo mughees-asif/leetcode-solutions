@@ -171,7 +171,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Math - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-|  [Add Two Lists](https://leetcode.com/explore/interview/card/apple/345/linked-list/2021/) |  | [integer addition](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/AddTwoLists/src/com/mughees/Main.java) | `O(n)` |
+|  [Add Two Lists](https://leetcode.com/explore/interview/card/apple/345/linked-list/2021/) | elementary addition | [integer addition](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/AddTwoLists/src/com/mughees/Main.java) | `O(n)` |
 
 --------------------------------------------------------------------------------------------
 
