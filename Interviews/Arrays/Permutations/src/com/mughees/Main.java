@@ -4,40 +4,46 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3};
-        System.out.println(permute(arr));
-    }
+    // change the position of every element to the first place,
+    // and permute the rest, except the first one.
 
-    public static void backtrack(int n,
-                                 ArrayList<Integer> nums,
-                                 List<List<Integer>> output,
-                                 int first) {
-        // if all integers are used up
-        if (first == n)
-            output.add(new ArrayList<Integer>(nums));
-        for (int i = first; i < n; i++) {
-            // place i-th integer first
-            // in the current permutation
-            Collections.swap(nums, first, i);
-            // use next integers to complete the permutations
-            backtrack(n, nums, output, first + 1);
-            // backtrack
-            Collections.swap(nums, first, i);
+    private static List<List<Integer>> result;
+
+    private static void permuteHelper(int[] num, int index) {
+        if (index == num.length) {
+            result.add(getOriginal(num));
+            return;
+        }
+        for (int j = index; j < num.length; j++) {
+            //Arrays.sort(num, idx, num.length);
+            swap(num, index, j);
+            permuteHelper(num, index + 1);
+            swap(num, index, j);
         }
     }
 
-    public static List<List<Integer>> permute(int[] nums) {
-        // init output list
-        LinkedList<List<Integer>> output = new LinkedList<>();
+    private static void swap(int[] num, int i, int j) {
+        int tmp = num[i];
+        num[i] = num[j];
+        num[j] = tmp;
+    }
 
-        // convert nums into list since the output is a list of lists
-        ArrayList<Integer> nums_lst = new ArrayList<Integer>();
-        for (int num : nums)
-            nums_lst.add(num);
+    private static List<Integer> getOriginal(int[] num) {
+        List<Integer> tmp = new ArrayList<>();
+        for (int value : num) {
+            tmp.add(value);
+        }
+        return tmp;
+    }
 
-        int n = nums.length;
-        backtrack(n, nums_lst, output, 0);
-        return output;
+    private static List<List<Integer>> permute(int[] num) {
+        result = new ArrayList<>();
+        permuteHelper(num, 0);
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        System.out.println(permute(arr));
     }
 }
