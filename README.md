@@ -42,8 +42,7 @@ Everyone is more than welcome to contribute to the solutions.
 
 5. Initiate a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
-6. I will review it and, if applicable, merge the pull request. 
-
+6. I will review it and, if applicable, merge the pull request.
 --------------------------------------------------------------------------------------------
 
 ### 4. Key
@@ -71,7 +70,7 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |
 | Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
 
---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 # 5. Easy Collection :green_book:
 
@@ -124,7 +123,7 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |------------- |
 |  [Maximum Depth of Tree](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | see code for a detailed explanation | [integer showing the max. depth of given tree](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Trees/MaxDepth/src/Solution.java) | *O(2<sup>n</sup>)* / `O(n)` |
 
---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 # 6. Medium Collection :orange_book:
 
@@ -173,7 +172,7 @@ Everyone is more than welcome to contribute to the solutions.
 | ------------- | ------------- | ------------- |------------- |
 |  [Add Two Lists](https://leetcode.com/explore/interview/card/apple/345/linked-list/2021/) | elementary addition | [integer addition](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Math/AddTwoLists/src/com/mughees/Main.java) | `O(n)` |
 
---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 # 6. Hard Collection :closed_book:
 
