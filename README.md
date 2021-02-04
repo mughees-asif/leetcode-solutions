@@ -176,6 +176,12 @@ Everyone is more than welcome to contribute to the solutions.
 
 # 6. Hard Collection :closed_book:
 
+## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
+| Challenge  | Explanation  | Returns | Time complexity |
+| ------------- | ------------- | ------------- |------------- |
+
+
+
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
