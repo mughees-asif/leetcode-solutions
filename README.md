@@ -179,7 +179,7 @@ Everyone is more than welcome to contribute to the solutions.
 ## Strings - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
 | ------------- | ------------- | ------------- |------------- |
-
+| Number To Words | tl;dr -> check the [code](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/Strings/NumbersToWords/src/com/mughees/Main.java) | - | - | 
 
 
 ## Sorting and Searching - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
