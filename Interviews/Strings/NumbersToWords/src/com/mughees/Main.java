@@ -121,25 +121,18 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("*** " + Main.convert(0));
-        System.out.println("*** " + Main.convert(1));
-        System.out.println("*** " + Main.convert(16));
-        System.out.println("*** " + Main.convert(100));
-        System.out.println("*** " + Main.convert(118));
-        System.out.println("*** " + Main.convert(200));
-        System.out.println("*** " + Main.convert(219));
-        System.out.println("*** " + Main.convert(800));
-        System.out.println("*** " + Main.convert(801));
-        System.out.println("*** " + Main.convert(1316));
-        System.out.println("*** " + Main.convert(1000000));
-        System.out.println("*** " + Main.convert(2000000));
-        System.out.println("*** " + Main.convert(3000200));
-        System.out.println("*** " + Main.convert(700000));
-        System.out.println("*** " + Main.convert(9000000));
-        System.out.println("*** " + Main.convert(9001000));
-        System.out.println("*** " + Main.convert(123456789));
-        System.out.println("*** " + Main.convert(2147483647));
-        System.out.println("*** " + Main.convert(3000000010L));
+        System.out.println(convert(0));
+        System.out.println(convert(801));
+        System.out.println(convert(1316));
+        System.out.println(convert(1000000));
+        System.out.println(convert(2000000));
+        System.out.println(convert(3000200));
+        System.out.println(convert(700000));
+        System.out.println(convert(9000000));
+        System.out.println(convert(9001000));
+        System.out.println(convert(123456789));
+        System.out.println(convert(2147483647));
+        System.out.println(convert(3000000010L));
 
         /*
          *** zero
@@ -159,9 +152,9 @@ public class Main {
          *** nine millions
          *** nine millions one thousand
          *** one hundred twenty three millions four hundred
-         **      fifty six thousand seven hundred eighty nine
+         **  fifty six thousand seven hundred eighty nine
          *** two billion one hundred forty seven millions
-         **      four hundred eighty three thousand six hundred forty seven
+         **  four hundred eighty three thousand six hundred forty seven
          *** three billion ten
          **/
     }
