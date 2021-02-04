@@ -69,6 +69,7 @@ Everyone is more than welcome to contribute to the solutions.
 | Topic  | Location | Difficulty level |
 | ------------- | ------------- | ------------- |
 | Sorting and Searching | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: |
+| Strings | [:memo:](https://github.com/mughees-asif/leetcode-solutions#6-hard-collection-closed_book) | :closed_book: | 
 
 ------------------------------------------------------------------------------------------
 
