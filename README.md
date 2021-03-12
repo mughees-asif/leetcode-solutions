@@ -162,6 +162,8 @@ Everyone is more than welcome to contribute to the solutions.
 |  [Merge Intervals](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | notice for merging, the `lastIndex` of `firstArray >= firstIndex` of `secondArray` -> if you use this logic, it cuts the need to check each interval | [merged interval array](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeIntervals/src/com/mughees/Main.java) | `O(n log n)` |
 |  [Top K Frequent Words](https://leetcode.com/explore/interview/card/bloomberg/72/sorting-and-searching/2938/) | count occurrences -> check for alphabetical order using custom `Comparator` in a `PriorityQueue` -> remove all the elements that are more than `K` frequency -> reverse `result` list | [top K frequent words](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/TopKWords/src/com/mughees/Main.java) | `O(n log K)` |
 |  [Merge Two Sorted Lists](https://leetcode.com/explore/interview/card/facebook/6/linked-list/301/) | recursion 101 | [merged lists](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/MergeKSortedLists/src/com/mughees/Main.java) | `O(m * n)`, n & m = length of both lists |
+|  [Reorder Lists](https://leetcode.com/problems/reorder-list/) | find the middle of the list, reverse second part, merge the lists | [reordered lists](https://github.com/mughees-asif/leetcode-solutions/blob/master/Interviews/SortingAndSearching/ReorderLists/src/com/mughees/Main.java) | `O(N)` |
+
 
 ## Dynamic Programming - back to [key](https://github.com/mughees-asif/leetcode-solutions#4-key)
 | Challenge  | Explanation  | Returns | Time complexity |
