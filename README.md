@@ -22,7 +22,7 @@ If running locally, then:
 
 * change directory ```cd leetcode-solutions``` 
 
-* run ```Main.java``` with your Java compiler or run the ```main``` method in ```Main.java``` if using an IDE.
+* run ```Main.java``` with your Java compiler/terminal or run the ```main``` method in ```Main.java``` if using an IDE.
 
 ------------------------------------------------------------------------------------------
 
